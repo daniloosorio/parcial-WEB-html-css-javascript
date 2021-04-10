@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.page{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    border: 1px solid;
+
+
+}
+header img{
+    width: 100%;
+
+}
+.main{
+    border: 1px solid;
+    margin: auto;
+    width: 90%;
+    clear: both;
+    text-align: left;
+    padding: 5px;
+}
+.topmenu{
+    margin: auto;
+    width: 50%;
+    overflow: hidden;
+    float: right;
+}
+.topmenu ul{
+    display: flex;
+    justify-content: center;
+}
+.topmenu li{
+    display: inline;
+}
+.topmenu a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 50px;
+    background-color: aqua;
+    border-radius: 50%;
+    
+}
